@@ -149,8 +149,6 @@ let tablaPacientes = especialidad => {
 
     let tabla = document.querySelector(`#tabla-${nombreEspecialidad} tbody`);
 
-    console.log(tabla);
-
     especialidad.forEach(paciente => {
 
         tabla.innerHTML += `
