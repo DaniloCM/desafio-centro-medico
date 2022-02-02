@@ -1,0 +1,62 @@
+* {
+    font-family: 'Open Sans';
+}
+
+
+/* nav */
+.navbar {
+    background-color: #0079C8;
+}
+
+/* Portada */
+#marco-hero {
+    position: relative;
+    height: 95vh;
+    overflow: hidden;
+}
+
+#bg-hero {
+    position: absolute;
+    width: 100%;
+    background-image: url(/assets/img/pexels-cottonbro-7578802.jpg);
+    background-size: cover;
+    height: 120vh;
+    z-index: -1;
+}
+
+#titulo-hero {
+    display: inline-block;
+    margin-top: 20%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Estadisticas */
+#estadisticas-section {
+
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+
+}
+
+
+/* Footer */
+footer {
+
+    background-color: #0079C8;
+    color: white;
+
+}
+
+footer a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+footer a:hover {
+
+    color: white;
+
+}
