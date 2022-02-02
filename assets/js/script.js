@@ -30,6 +30,7 @@ let radiografia = [{
     prevision: 'Fonasa'
 }];
 
+
 let traumatologia = [{
     hora: '8:00',
     especialista: 'Maria Paz Altuzarra',
@@ -74,6 +75,7 @@ let traumatologia = [{
     prevision: 'Isapre'
 }];
 
+
 let dental = [{
     hora: '8:30',
     especialista: 'Andrea Zuñiga',
@@ -112,6 +114,7 @@ let dental = [{
     prevision: 'Isapre'
 }];
 
+
 let nombreDeLaEspecialidad = especialidad => {
 
     let nombre;
@@ -123,6 +126,7 @@ let nombreDeLaEspecialidad = especialidad => {
     return nombre;
 
 };
+
 
 let resumenPacientes = especialidad => {
 
@@ -137,6 +141,7 @@ let resumenPacientes = especialidad => {
     `;
 
 };
+
 
 let tablaPacientes = especialidad => {
 
